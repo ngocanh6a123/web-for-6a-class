@@ -1,5 +1,8 @@
 *{margin:0;padding:0;}
 
+p.bt212 {
+}
+
 img.lichthi {
     margin: auto;
     padding: 34px;
@@ -343,6 +346,10 @@ div#id_of_me {
     top: 50%;
     transform: translateY(-50%);
     font-family: timenewromen;
+}
+
+a.ahome {
+    font-size: 25px;
 }
 
 .hoatdong{height: 100%;}
