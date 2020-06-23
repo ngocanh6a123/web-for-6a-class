@@ -1,5 +1,9 @@
 *{margin:0;padding:0;}
 
+p.ptt {
+    font-size: 12px;
+}
+
 h2.BT21 {
     margin-bottom: 33px;
 }
