@@ -654,7 +654,7 @@ div#SACH_CHI_TIET_RIGHT table {
     margin-left: 20px;
     width:85%;
 }
-div#SACH_CHI_TIET_RIGHT table, th, tr, td{border: 1px solid black;}
+div#SACH_CHI_TIET_RIGHT table, th, tr, td{border: 1px solid black;font-size: 17px;font-family: timenewroman;}
 
 div#SACH_CHI_TIET_RIGHT table tr {
     height: 58px;
