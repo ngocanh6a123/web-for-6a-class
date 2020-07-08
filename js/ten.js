@@ -72,3 +72,14 @@ $(document).ready(function () {
 
 
 });
+
+
+
+// mảng 
+// mảng là một cấu trúc dữ liệu trong ngôn ngữ lập trình 
+// nó lưu trữ một tập hợp tuần tự các phần tử cùng kiểu với độ dài cố định
+// các giá trị đặc trưng cho mảng
+// 1.phần tử
+// 2.chỉ số của phần tử trong mảng
+// 3.độ dài mảng
+// 4.kiểu mảng(kiểu của các phần tử trong mảng )
