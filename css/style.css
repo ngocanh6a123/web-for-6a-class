@@ -1,5 +1,7 @@
 *{margin:0;padding:0;}
 
+tbody {}
+
 p.ptt {
     font-size: 12px;
 }
@@ -166,9 +168,9 @@ nav#wrap_header {
 
 .row.hometable {
     position: relative;
-    height: 348px;
+    height: 542px;
     /* left: 58px; */
-    background: url(https://aviastravel.com/wp-content/uploads/2017/08/h3-rev-slider-img-1.jpg);
+    background: url(https://2.bp.blogspot.com/-HEzU3uHkBo8/XAOEcAAzxjI/AAAAAAAAFSM/venCAJYqagsmietiQDGKas0gtkKq3oKMACLcBGAs/s1600/call-me-dami-img-20170405-195048-908.jpg);
 }
 
 .row.table3 {
@@ -180,9 +182,9 @@ nav#wrap_header {
 table.home_table {/* border: 1px solid white; */position: relative;top: 11px;font-family: time new romen;color: white;font-size: 26px;border-bottom: 1px solid #ddd;}
 
 table.home_table {
-    /* position: absolute; */
-    /* margin-left: 50%; */
-    /* display: flex; */
+    position: absolute;
+    margin-left: 50%;
+    display: flex;
     margin: auto;
 }
 
@@ -655,7 +657,7 @@ div#SACH_CHI_TIET_RIGHT table {
     margin-left: 20px;
     width:85%;
 }
-div#SACH_CHI_TIET_RIGHT table, th, tr, td{border: 1px solid black;font-size: 17px;font-family: timenewroman;}
+div#SACH_CHI_TIET_RIGHT table, th, tr, td{border: 1px solid black;font-size: 26px;font-family: timenewroman;}
 
 div#SACH_CHI_TIET_RIGHT table tr {
     height: 58px;
@@ -938,7 +940,7 @@ td.hometd2 {
 
 td.hometd1 {
     padding: 0px 141px 11px 10px;
-    /* height: 1px; */
+     height: 1px; 
 }
 
 
@@ -964,7 +966,7 @@ th.hometh2 {
 }
 
 th.hometh1 {
-    padding: 10px 11px;
+    padding: 13px 19px;
 }
 
 
