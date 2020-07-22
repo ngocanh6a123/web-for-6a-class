@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 
-tbody {}
+
 
 p.ptt {
     font-size: 12px;
@@ -183,9 +183,10 @@ table.home_table {/* border: 1px solid white; */position: relative;top: 11px;fon
 
 table.home_table {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 44%;
     display: flex;
     margin: auto;
+    left: 277px;
 }
 
 .row_h2 h2 {
