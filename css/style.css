@@ -2,6 +2,7 @@
 
 
 
+
 p.ptt {
     font-size: 12px;
 }
@@ -29,7 +30,7 @@ img.lichthi {
 }
 div#footer {
     width: 100%;
-    background-color: #f09898;
+    background: url(https://i1.sndcdn.com/artworks-000228014184-myrf6m-t500x500.jpg);
 }
 
 div#footer_right {
@@ -168,9 +169,9 @@ nav#wrap_header {
 
 .row.hometable {
     position: relative;
-    height: 542px;
+    height: 410px;
     /* left: 58px; */
-    background: url(https://2.bp.blogspot.com/-HEzU3uHkBo8/XAOEcAAzxjI/AAAAAAAAFSM/venCAJYqagsmietiQDGKas0gtkKq3oKMACLcBGAs/s1600/call-me-dami-img-20170405-195048-908.jpg);
+    background: url(../imgs/bien3.jpg);
 }
 
 .row.table3 {
@@ -186,7 +187,8 @@ table.home_table {
     margin-left: 44%;
     display: flex;
     margin: auto;
-    left: 277px;
+    left: 167px;
+    padding: 0px 25px;
 }
 
 .row_h2 h2 {
@@ -198,18 +200,19 @@ table.home_table {
     hr.style-five
     {
         border: 0;
-        height: 81px;
-        background-image: url(imgs/sach/style-five.webp);
+        height: 75px;
+        background-image: url(../imgs/sach/style-five.webp);
         background-repeat: no-repeat;
         width: 738px;
         }
         hr.style-ten
         {
             border: 0;
-            height: 81px;
-            background-image: url(imgs/sach/type_10.webp);
+            height: 69px;
+            background-image: url(../imgs/sach/type_10.webp);
             background-repeat: no-repeat;
             width: 724px;
+            margin-left: 415px;
             }
         hr.style-eight
         {
@@ -231,15 +234,16 @@ table.home_table {
         {
             border: 0;
             height: 81px;
-            background-image: url(imgs/sach/type_2.webp);
+            background-image: url(../imgs/sach/type_2.webp);
             background-repeat: no-repeat;
             width: 738px;
+            margin-left: 284px;
             }
             hr.style-one
             {
                 border: 0;
                 height: 33px;
-                background-image: url(imgs/sach/type_6.webp);
+                background-image: url(../imgs/sach/type_6.webp);
                 background-repeat: no-repeat;
                 width: 666px;
                 }
@@ -927,7 +931,7 @@ hr.type_3 {
     border: 0;
     height: 25px;
     width: 621px;
-    background-image: url(imgs/sach/type_3.webp);
+    background-image: url(../imgs/sach/type_3.webp);
     background-repeat: no-repeat;
 }
 #about_me_left table, th, td {
@@ -959,7 +963,7 @@ td.hometd3 {
 }
 
 th.hometh3 {
-    padding: 10px 11px;
+    padding: 13px 128px;
 }
 
 th.hometh2 {
@@ -967,7 +971,7 @@ th.hometh2 {
 }
 
 th.hometh1 {
-    padding: 13px 19px;
+    padding: 13px 190px;
 }
 
 
@@ -1005,5 +1009,8 @@ h1#h1_title {
     
 }
 
+.trang {
+    color: white !important;
+}
 
 

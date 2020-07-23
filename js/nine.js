@@ -66,6 +66,8 @@ $("#nav_left ul li a").hover(function () {
 );
 
 
+
+
 // su kien scroll trong jq
 // 1.Khai niem:
 // scroll: su kien ung voi thao tac cua con tro chuot 
