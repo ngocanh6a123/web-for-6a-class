@@ -83,7 +83,7 @@ tr.hometr:hover {background-color: #999999}
 img.activity {
     width: 308px;
     margin-left: -20px;
-    border: 1px solid;
+    border-radius: 11px;
     padding: 5px;
     height: 282px;
 }
@@ -92,9 +92,9 @@ img.anhrhome1 {
     margin: -14px;
     width: 926px;
     height: 359px;
-    border: 1px solid black;
     margin-bottom: -13px;
     padding: 7px;
+    border-radius: 24px;
 }
 
 
@@ -303,6 +303,10 @@ img.imgsssssssssss {
     height: 341px;
     position: absolute;
     right: 109px;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 9px 11px 5px #a5e7f7;
 }
 
 .carousel-item {
@@ -929,7 +933,7 @@ hr {
 
 hr.type_3 {
     border: 0;
-    height: 25px;
+    height: 33px;
     width: 621px;
     background-image: url(../imgs/sach/type_3.webp);
     background-repeat: no-repeat;
