@@ -1,5 +1,46 @@
 *{margin:0;padding:0;}
 
+div#home2 {
+    padding-top: 35px;
+}
+
+.divbutton i.fa.fa-angle-up {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.5);
+    
+    /* transition: 0.4s; */
+}
+
+.divbutton:hover i.fa.fa-angle-up {
+    transform: translate(-50%,-50%) scale(2);
+}
+
+.divbutton:hover {
+    border-width: 2px;
+}
+
+.divbutton {
+    border-radius: 50%;
+    border: 1px solid #000000;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 115px;
+    color: black;
+    right: 40px;
+    transition: 0.2s;
+    display: none;
+}
+
+#nav_right img {
+    width: 27%;
+    height: 87%;
+}
+
 
 
 
@@ -77,29 +118,27 @@ tr.hometr:hover {background-color: #999999}
 
 
 .col-md-4.anhhome {
-    padding: 30px;
-    margin: 0px;
+    width: 100%;
+    height: 250px;
 }
 
+.img3{
+    margin-top: 50px;
+}
+
+
+
 img.activity {
-    width: 295px;
-    margin-left: -24px;
+    width: 100%;
     border-radius: 11px;
-    padding: 7px;
-    height: 281px;
+    height: 100%;
     border: 2px solid;
-    /* box-shadow: 5px 5px 2px; */
 }
 
 img.anhrhome1 {
-    margin: -14px;
-    width: 926px;
-    height: 359px;
-    margin-bottom: -13px;
-    padding: 7px;
-    border-radius: 24px;
-    /* box-shadow: 5px 5px 1px; */
-    border: 2px solid;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 132, 255)
 }
 
 
@@ -124,7 +163,7 @@ img.anhrhome1 {
 
 div#nav_left {
     width: 80%;
-    line-height: 100px;
+    /* line-height: 100px; */
     text-align: right;
 }
 
@@ -146,13 +185,18 @@ div#nav_left ul li:last-child{
 
 div#nav_right {
     width: 20%;
-    line-height: 100px;
+    /* line-height: 100px; */
 }
 
 #header{
     width: 100%;
-    background-color: #f09898;
+    background-color: white;
     color: white;
+    background: #ce94ce;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
 }
 
 nav#wrap_header {
@@ -160,7 +204,8 @@ nav#wrap_header {
     margin: auto;
     display: flex;
     /* background-color: rgba(0,0,0,.075); */
-    height: 107px;
+    height: 80px;
+    line-height: 80px;
 }
 
 
@@ -202,84 +247,66 @@ table.home_table {
     text-shadow: 3px 4px 4px #328de6;
 }
 
-    hr.style-five
-    {
-        border: 0;
-        height: 75px;
-        background-image: url(../imgs/sach/style-five.webp);
-        background-repeat: no-repeat;
-        width: 738px;
-        }
-        hr.style-ten
-        {
-            border: 0;
-            height: 69px;
-            background-image: url(../imgs/sach/type_10.webp);
-            background-repeat: no-repeat;
-            width: 724px;
-            margin-left: 415px;
-            }
-        hr.style-eight
-        {
-            border: 0;
-            height: 81px;
-            background-image: url(imgs/sach/style-eight.webp);
-            background-repeat: no-repeat;
-            width: 738px;
-            }
-            hr.style-nine
-            {
-                border: 0;
-                height: 81px;
-                background-image: url(imgs/sach/type_5.webp);
-                background-repeat: no-repeat;
-                width: 738px;
-                }
-        hr.style-six
-        {
-            border: 0;
-            height: 81px;
-            background-image: url(../imgs/sach/type_2.webp);
-            background-repeat: no-repeat;
-            width: 738px;
-            margin-left: 284px;
-            }
-            hr.style-one
-            {
-                border: 0;
-                height: 33px;
-                background-image: url(../imgs/sach/type_6.webp);
-                background-repeat: no-repeat;
-                width: 666px;
-                }
-                hr.style-seven
-                {
-                    border: 0;
-                    height: 99px;
-                    background-image: url(imgs/sach/style-six.webp);
-                    background-repeat: no-repeat;
-                    width: 717px;
-                    }
+hr.style-five{
+    border: 0;
+    height: 75px;
+    background-image: url(../imgs/sach/style-five.webp);
+    background-repeat: no-repeat;
+    width: 738px;
+}
+
+hr.style-ten{
+    border: 0;
+    height: 69px;
+    background-image: url(../imgs/sach/type_10.webp);
+    background-repeat: no-repeat;
+    width: 724px;
+    margin-left: 415px;
+}
+
+hr.style-eight{
+    border: 0;
+    height: 81px;
+    background-image: url(imgs/sach/style-eight.webp);
+    background-repeat: no-repeat;
+    width: 738px;
+}
+
+hr.style-nine{
+    border: 0;
+    height: 81px;
+    background-image: url(imgs/sach/type_5.webp);
+    background-repeat: no-repeat;
+    width: 738px;
+}
+hr.style-six{
+    border: 0;
+    height: 81px;
+    background-image: url(../imgs/sach/type_2.webp);
+    background-repeat: no-repeat;
+    width: 738px;
+    margin-left: 284px;
+}
+hr.style-one{
+    border: 0;
+    height: 33px;
+    background-image: url(../imgs/sach/type_6.webp);
+    background-repeat: no-repeat;
+    width: 666px;
+}
+hr.style-seven{
+    border: 0;
+    height: 99px;
+    background-image: url(imgs/sach/style-six.webp);
+    background-repeat: no-repeat;
+    width: 717px;
+}
                 
 .row_h2 h2 {
     font-size: 50px;
     text-align: center;
     text-shadow: 5px 3px 6px #30a5bd;
 }
-
-
-
-
-.chung {
-    width: 898px;
-    position: relative;
-    left: 264px;
-    top: -6px;
-    height: 810px;
-}
-
-
-
 
 .p_and_img {
     position: absolute;
@@ -307,7 +334,7 @@ img.imgsssssssssss {
     width: 532px;
     height: 341px;
     position: absolute;
-    right: 109px;
+    right: 7px;
     border: 2px solid black;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1009,9 +1036,9 @@ h1#h1_title {
 #about_me{
     padding:50px 0px;
     
-}
+}   
 
-.content_margin{margin-top: 20px;margin-bottom: 60px;}
+.content_margin{margin-top: 86px;margin-bottom: 60px;}
 
 .xanh {
     color:green !important;
@@ -1025,5 +1052,17 @@ h1#h1_title {
 p.caitien {
     margin: 271px 0px 271px 565px;
 }
+
+.thaydoi {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
 
 

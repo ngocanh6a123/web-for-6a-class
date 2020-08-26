@@ -55,15 +55,15 @@ $(document).ready(function () {
 // thu tuc trong jq: cach viet giong ham nhung khong co gia tri tra ve
 
 // hover trong jquery
-$("#nav_left ul li a").hover(function () {
-    console.log("bhgy");
-        $("#nav_left ul li a").removeClass("xanh");
-        $(this).addClass("xanh");
-        
-    },function(){
-        $(this).removeClass("xanh");
-    }
-);
+    $("#nav_left ul li a").hover(function () {
+        console.log("bhgy");
+            $("#nav_left ul li a").removeClass("xanh");
+            $(this).addClass("xanh");
+            
+        },function(){
+            $(this).removeClass("xanh");
+        }
+    );
 
 
 
@@ -82,24 +82,31 @@ $("#nav_left ul li a").hover(function () {
 // console.log( $(selector).offset().top;
 // +) scrolltop(): lay khoang cach tu vi tri con lan den vi tri dau trang khi minh cuon chuot
 
-var changeNav = function() {
-    var flag = $("body, html").scrollTop();
-   if ( flag> 700) {
-      console.log("lon hon 700"); 
-   } else {
-     console.log("nho hon 700");
-   } 
-}
-
-changeNav();
+ 
 
 
 
 
+    function changebutton() {
+        var y =  $("html, body").scrollTop();
+      if ( y < 700 ) {
+        $(".chuyenlen").removeClass("thaydoi");
+      } else {
+        $(".chuyenlen").addClass("thaydoi");
+      }
+    }  
+
+
+    $(window).scroll(function () { 
+      changebutton();
+    });
+
+    
+});
 
 
 
 
 
    
-}); 
+
