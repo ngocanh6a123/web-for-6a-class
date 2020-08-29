@@ -1,5 +1,9 @@
 *{margin:0;padding:0;}
 
+div#home {
+    margin-top: 72px;
+}
+
 div#home2 {
     padding-top: 35px;
 }
