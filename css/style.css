@@ -1,5 +1,9 @@
 *{margin:0;padding:0;}
 
+div#TRANG_HOAT_DONG {
+    margin-top: 98px;
+}
+
 div#home {
     margin-top: 72px;
 }
@@ -270,8 +274,8 @@ hr.style-ten{
 
 hr.style-eight{
     border: 0;
-    height: 81px;
-    background-image: url(imgs/sach/style-eight.webp);
+    height: 34px;
+    background-image: url(../imgs/sach/style-eight.webp);
     background-repeat: no-repeat;
     width: 738px;
 }
@@ -759,7 +763,8 @@ div#SACH_CHI_TIET_LEFT img {
     margin: auto;
 }
 #book_result{
-    color: black;    
+    color: black;
+    margin-top: 98px;
 }
 
 /* book css */
@@ -843,7 +848,7 @@ div#SACH_CHI_TIET_LEFT img {
 div#sach_noi_dung {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    margin-top:40px;
+    margin-top: 87px;
     margin-bottom: 50px;
 }
 

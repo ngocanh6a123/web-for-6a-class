@@ -36,7 +36,7 @@ $(".divbutton").click(function (e) {
 
 var an_hien = function() {
     var x = $("html,body").scrollTop();
-    if (x > 500) {
+    if (x > 300) {
       $(".divbutton").css("display", "block");  
     } else {
         $(".divbutton").css("display", "none"); 
