@@ -1066,6 +1066,30 @@ p.caitien {
     background-color: lightblue;
 }
 
+.before_a{
+    position: relative;
+}
+
+.before_a::after{
+    position: absolute;
+    content: '';
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('../imgs/thumbnail.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0%;
+    height: 0%;
+    transition: all .5s ease;
+}
+
+.before_a:hover::after{
+    width:100px;
+    height: 100px;
+}
+
 
 
 
