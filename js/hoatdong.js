@@ -21,4 +21,9 @@ $(document).ready(function () {
           autoStart:true
         }
       });
+      $('[data-fancybox = "images-album5"]').fancybox({
+        thumbs:{
+          autoStart:true
+        }
+      });
 });

@@ -200,7 +200,7 @@ div#nav_right {
     width: 100%;
     background-color: white;
     color: white;
-    background: #ce94ce;
+    background: #ce68ff80;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -444,13 +444,13 @@ p.bt212 {
     font-size: 20px;
 }
 
-#row_bts_2 h2.BT21{color: orangered;}
+#row_bts_2 h2.BT21{color: #23008026;color: #c711fd;}
 
 h2.BT21 {
-    color: #ea657c;
+    color: hotpink;
     font-weight: 300;
     font-size: 40px;
-    text-shadow: 2px 2px 2px green;
+    text-shadow: 3px 1px 3px pink;
 }
 
 button.button_BT21 {
@@ -1076,19 +1076,32 @@ p.caitien {
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-image: url('../imgs/thumbnail.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 0%;
     height: 0%;
     transition: all .5s ease;
+    
 }
 
 .before_a:hover::after{
     width:100px;
     height: 100px;
+    
 }
+
+.zocial::before {
+    content: "";
+   
+    }
+    .zocial.plus::before {
+    content: "p";
+    }
+
+
+
 
 
 
