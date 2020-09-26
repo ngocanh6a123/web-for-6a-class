@@ -26,4 +26,19 @@ $(document).ready(function () {
           autoStart:true
         }
       });
+      $('[data-fancybox = "images-album6"]').fancybox({
+        thumbs:{
+          autoStart:true
+        }
+      });
+      $('[data-fancybox = "images-album7"]').fancybox({
+        thumbs:{
+          autoStart:true
+        }
+      });
+      $('[data-fancybox = "images-album8"]').fancybox({
+        thumbs:{
+          autoStart:true
+        }
+      });
 });
