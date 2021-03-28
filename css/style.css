@@ -1,11 +1,52 @@
 *{margin:0;padding:0;}
 
+div#blog {
+margin-bottom: -279px;              
+;
+}
+.stlist {
+    width: 100%;
+    height: 259px;
+    background-color: #d23f1ecf;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* height: 93px; */
+}
+
+.stlist img {
+    width: 80%;
+    height: 172px;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 9px;
+}
+
+form p {
+    color: darkred;
+    font-size: 19px;
+    font-weight: 98%;
+    font-weight: bold;
+}
+
+form {
+    padding: 25px;
+}
+
+p {}
+
+.student {
+    background-color: chocolate;
+    border-radius: 23%;
+    width: 12%;
+}
+
 div#TRANG_HOAT_DONG {
     margin-top: 98px;
 }
 
 div#home {
-    margin-top: 72px;
+    /* margin-top: 72px; */
 }
 
 div#home2 {
@@ -78,8 +119,14 @@ img.lichthi {
     background-color: #328de6;
 }
 div#footer {
-    width: 100%;
-    background: url(https://i1.sndcdn.com/artworks-000228014184-myrf6m-t500x500.jpg);
+    width: 99%;
+    /* height: 60px; */
+    /* position: fixed; */
+    /* background: url(https://i1.sndcdn.com/artworks-000228014184-myrf6m-t500x500.jpg); */
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    background-color: #d23f1ee0;
 }
 
 div#footer_right {
@@ -140,15 +187,15 @@ img.activity {
     width: 100%;
     border-radius: 11px;
     height: 100%;
-    border: 2px solid;
+    border: 2px solid #d23f1ee0;
 }
 
 img.anhrhome1 {
     width: 100%;
+    height: 450px;
     border-radius: 20px;
-    border: 2px solid rgb(0, 132, 255)
+    border: 3px solid #d23f1ee0;
 }
-
 
 
 
@@ -199,8 +246,8 @@ div#nav_right {
 #header{
     width: 100%;
     background-color: white;
-    color: white;
-    background: #ce68ff80;
+    color:chocolate;
+    background: #d23f1ee0;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -218,16 +265,20 @@ nav#wrap_header {
 
 
 .table_h3 {
-    width: 92%;
-    height: 237px;
+    /* width: 92%;
+    height: 237px; */
     /* background: url(https://aviastravel.com/wp-content/uploads/2017/08/h3-rev-slider-img-1.jpg); */
-    position: relative;
-    left: 55px;
+    /* position: relative;
+    left: 55px; */
+    width: 100%;
 }
 
 .row.hometable {
-    position: relative;
-    height: 410px;
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+    /* position: relative;
+    height: 410px; */
     /* left: 58px; */
     background: url(../imgs/bien3.jpg);
 }
@@ -238,15 +289,24 @@ nav#wrap_header {
     top: 52px;
 }
 
-table.home_table {/* border: 1px solid white; */position: relative;top: 11px;font-family: time new romen;color: white;font-size: 26px;border-bottom: 1px solid #ddd;}
+table.home_table {/* border: 1px solid white; */
+    /* position: relative;
+    top: 11px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 26px;
+    border-bottom: 1px solid #ddd;
+}
 
 table.home_table {
-    position: absolute;
-    margin-left: 44%;
+    /* position: absolute;
+    margin-left: 44%; */
     display: flex;
     margin: auto;
-    left: 167px;
-    padding: 0px 25px;
+    /* left: 167px; */
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .row_h2 h2 {
@@ -323,7 +383,7 @@ hr.style-seven{
 
 h2.our {
     font-size: 44px;
-    margin-bottom: 22px;
+    margin-bottom: 83px;
     text-shadow: 2px 2px 5px #a5e7f7;
 }
 
@@ -331,6 +391,8 @@ p.p278 {
     width: 453px;
     font-family: timenewromen;
     font-size: 20px;
+    margin-left: 6px;
+    margin-top: -61px;
 }
 
 .row.img1 {
@@ -346,7 +408,7 @@ img.imgsssssssssss {
     border: 2px solid black;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
-    box-shadow: 9px 11px 5px #a5e7f7;
+    box-shadow: 9px 11px 5px #d23f1ee0;
 }
 
 .carousel-item {
@@ -379,7 +441,7 @@ div#id_of_me {
     /* border-bottom: 30px solid transparent; */
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid gray;
+    border-top: 20px solid #d23f1ee0;
     position: absolute;
     left: 36px;
     top: -10px;
@@ -580,7 +642,7 @@ a.main_title:hover {
     height: 160px;
     border: 1px solid #000000;
     display: flex;
-    background-color: lightcoral;
+    background-color: lightsteelblue;
 }
 
 .row.nr_one_row {
@@ -755,10 +817,10 @@ div#SACH_CHI_TIET_LEFT img {
 }
 
 #filter_block{
-    background-color:pink;
+    background-color: lightblue;
     border-radius: 10px;
     padding: 30px 20px;
-    height: 1152px;
+    height: 612px;
     width: 94%;
     margin: auto;
 }
@@ -1076,7 +1138,7 @@ p.caitien {
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-image: url('../imgs/300.png');
+    background-image: url('../imgs/plus.jpg');
     background-color: #cccccc;
     background-position: center;
     background-size: cover;
@@ -1102,14 +1164,62 @@ p.caitien {
     }
 
 
+.slide_banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.slide_banner .swiper-container{
+    width: 100%;
+    height: 100%;
+}
 
 
+.slide_banner .swiper-container .swiper-slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar{
+    left: 0;
+    top: 95%;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar .swiper-scrollbar-drag{
+    background: #4e42f5;
+}
 
 
+.fog .swiper-container .swiper-slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.fog {
+    width: 100%;
+    height: 100vh;
+}
 
+.fog .swiper-container {
+    height: 100%;
+}
 
+.fog .swiper-container .swiper-pagination-bullet {
+    background: yellow;
+}
 
-
-
-
+.fog .swiper-container .swiper-pagination-bullet {
+    background: yellow;
+    margin: 0 6px !important;
+}
+/* .content{
+    /* background-color: mediumorchid; */
+    /* width: 100%;
+    height: 300px;
+}
+.content .content-left{
+    
+    background-color: mediumturquoise;
+} */
