@@ -1,52 +1,230 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <title>HOME</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>HOME</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/style.css">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
+  </head>
+ 
+  <body>
+    <div id="home">
+      <!-- header -->
+      <div id="header">
+        <nav id="wrap_header">
+        <div id="nav_right">
+          <img src="../imgs/logoloptrang3.png" alt=>
+        </div>
 
-<body>
+        <div id="nav_left" >
+          <ul>
+            <li><a href="../html/index.html"  active>Introduce</a></li>
+            <li><a href="../html/tin_tuc.html">News</a></li>
+            <li><a href="../html/hoc_tap.html">Study</a></li>
+            <li><a href="../html/sach.html">Book</a></li>
+            <li><a href="../html/hoatdong.html">Activity</a></li>
+            <li><a href="../html/student.html">Student</a></li>
+            <li><a href="../html/blog.html">Blog</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <!-- kết thúc header -->
+      </div>
+      
 
-<!-- HEADER -->
-<nav>
-  <img src="imgs/logoloptrang3.png" width="60">
 
-  <ul>
-    <li><a href="index.html">Introduce</a></li>
-    <li><a href="html/tin_tuc.html">News</a></li>
-    <li><a href="html/hoc_tap.html">Study</a></li>
-    <li><a href="html/sach.html">Book</a></li>
-    <li><a href="html/hoatdong.html">Activity</a></li>
-    <li><a href="html/student.html">Student</a></li>
-    <li><a href="html/blog.html">Blog</a></li>
-  </ul>
-</nav>
+      <div class="slide_banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper" data-aos = "zoom-in" data-aos-delay="300">
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang1-2.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang1-2.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang1-2.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang1-2.jpg');"></div>
+          </div>
+          <!-- Add Scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
 
-<!-- Ví dụ banner -->
-<div style="background-image: url('imgs/khaigiang1-2.jpg'); height:400px; background-size:cover;">
-</div>
+      <div class="container-fluid" id="home2" >
+        <div class="row img1">
+          <div class="col-md-7">
+            <div class="p_and_img" data-aos="zoom-out-right" data-aos-duration="2000">
+                <h2 class="our">OUR 6A PRO</h2>
+            <P class="p278">A-FRICH là khẩu hiệu của lớp cũng là thông điệp và là mục tiêu xây dựng lớp học trong suốt 4 năm. Bắt đầu là Fun, kết thúc là Happy. Tôi hi vọng rằng hành trình 4 năm này của bọn trẻ sẽ là một trải nghiệm tuyệt vời để trở thành người “AFRICH” - giàu có về trí tuệ và đạo đức cũng như các giá trị sống khác.</P>
+            </div>
+          
+          </div>
+          <div class="col-md-5"data-fancybox="images" data-aos="zoom-out-left" data-aos-duration="2000">
+            <a href="https://www.youtube.com/watch?v=vLeawzOFP_A"data-fancybox="" ><img class="imgsssssssssss"src="../imgs/1234567890.jpg" alt=""></a>
+  
+          </div>
+          <!-- <div class="col-md-5"data-fancybox="images" >
+            <img class="imgsssssssssss"src="../imgs/1234567890.jpg" alt="">
+          </div> -->
+        </div>
+      </div>
 
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="js/header.js"></script>
-<script src="js/home.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <div class="chung container text-center">
+          <div class="row_h2 ">
+            <h2>OUR ACTIVITY </h2>
+          </div>
+          <div class="row hr ">
+            <hr class="type_3">
+          </div>
+          <div class="row img2">
+              <div class="col-md-12" data-aos="fade-up"
+              data-aos-duration="3000">
+                <a href="../html/hoatdong.html"><img class="anhrhome1" src="../imgs/activity.jpg" alt=""></a> 
+              </div>
+          </div>
+        <div class="row img3">
+              <div class="col-md-4 anhhome" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
+              <a href="../html/hoc_tap.html"><img  class="activity"src="../imgs/tải xuống.jpg" alt=""></a> 
+              </div>
+              <div class="col-md-4 anhhome"data-aos="fade-up"data-aos-anchor-placement="top-bottom"
+              data-aos-duration="3000">
+              <a href="../html/sach.html"> <img class="activity"src="../imgs/book-literature.jpg" alt=""></a>
+              </div>
+              <div class="col-md-4 anhhome"data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="3000">
+              <a href="../html/tin_tuc.html"> <img class="activity"src="../imgs/news.jpg" alt=""></a>
+              </div>
+          </div>
+        </div>
+        <!-- xong phan chung -->
 
-<script>
-  AOS.init();
-</script>
+         <hr class="type_3">
+          
+           
+          <div class="row hometable">
+          <div class="col-md-12"></div>
+          <div class="table_h3">
+                  
+           <table class="home_table">
+             <tr class="hometr">
+               <th class="hometh1">VỀ TÔI</th >
+              
+               <th class="hometh3">THÔNG TIN LIÊN HỆ</th>
+             </tr>
+             <tr class="hometr">
+               <td class="hometd1">Tên: Nguyễn Ngọc Anh</td>
+              
+               <td class="hometd3">Địa chỉ: Hà Nội</td>
+             </tr>
+             <tr class="hometr">
+               <td class="hometd1">Tuổi: **</td>
+               
+               <td class="hometd3">Liên hệ: 096*******</td>
+             </tr>
+             <tr class="hometr">
+               <td class="hometd1">Trường: THCS Tân Định</td> 
+         
+               <td class="hometd3">facebook: Ngoc Anh</td>
+             </tr>
+             <tr class="hometr">
+               <td class="hometd1">SĐT: 096*******</td>
+               
+               <td class="hometd">Email: meocon30092008@gmail.com</td>
+             </tr>
+            
+            
+           </table>
+                       </div>
+        </div>
+           
+         
+        
+      
+        <div class="divbutton">
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
 
-</body>
+
+      <!-- <div class="fog">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('../imgs/khaigiang7.jpg');"></div>
+          </div>
+          Add Pagination -->
+          <!-- <div class="swiper-pagination"></div>
+        </div>  -->
+      
+      </div> 
+        
+      
+        <!-- footer -->
+        <div id="footer">
+          <div id="footer_wrap">
+            <div id="footer_left">
+              <img src="../imgs/logoloptrang3.png" alt="" style="width: 50px;height: 50px;">
+            </div>
+            <div id="footer_right">
+              <ul>
+                <li><a href="https://www.facebook.com/thuyquynh.nguyen.7393264" id="face_icon"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                <li><a href="https://www.instagram.com/?hl=vi" id="face_icon"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKZXPBSbRsNWQFxWQdrLzTKshxtqlFGWTZvHShGsJsVplWSzDDFdgzXSxSmGRWffxNsVCL" id="face_icon"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/explore" id="face_icon"><i class="fa  fa-twitter" aria-hidden="true" aria-hidden="true"></i> </a></li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- paging -->
+
+
+      
+      </div>
+
+   
+      
+      
+       
+      
+   
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  
+
 </html>
